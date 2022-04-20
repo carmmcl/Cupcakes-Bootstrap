@@ -1,0 +1,55 @@
+
+
+
+main {
+    background-color:rgba(245, 189, 198, 0.795);
+    
+}
+.h3{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.btn {
+    background-color: rgb(201, 158, 242);
+    border: blueviolet;
+   
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(245, 189, 198, 0.795);
+    
+}
+
+.redes {
+    display: inline-block;
+}
+.bi-facebook {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:blueviolet;
+  
+}
+
+.bi-whatsapp {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:blueviolet;
+}
+
+.bi-instagram {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:blueviolet;
+    }
+
+
+    
+
+
