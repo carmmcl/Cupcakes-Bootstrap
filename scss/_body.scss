@@ -1,0 +1,10 @@
+body { background-color:$special-pink;}
+
+.btn {
+    background-color: $special-pink;
+    border: blueviolet;
+}
+.hoverfotos:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
