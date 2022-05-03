@@ -16,15 +16,10 @@ h4 {
   transform: scale(1.1);
   transition: 1s; }
 
-.hoverfotos:hover {
-  transform: scale(1.05);
-  transition: 1s; }
-
-body {
+.body, .btn {
   background-color: #fcb1bd; }
 
 .btn {
-  background-color: #fcb1bd;
   border: blueviolet; }
 
 .hoverfotos:hover {
