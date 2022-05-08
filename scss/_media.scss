@@ -1,0 +1,33 @@
+/*Media*/
+
+@media screen and (max-width:768px){
+      
+    .container-recetas{
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: minmax(100px,auto);
+    grid-template-areas: 
+    "foto1 receta1"
+    "foto2 receta2"
+    "foto3 receta3";
+            
+  }       
+}    
+ 
+
+@media screen and (max-width:500px){
+
+    .container-recetas
+    {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6,1fr);
+      grid-template-areas: 
+      "foto1"
+      "receta1"
+      "foto2"
+      "receta2"
+      "foto3"
+      "receta3";    
+      margin: auto;   
+            
+  }    
+  }

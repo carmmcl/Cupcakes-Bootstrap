@@ -1,36 +1,89 @@
-h1 {
-  font-family: "Bilbo Swash Caps", cursive; }
-
-h3 {
-  font-family: Arial, Helvetica, sans-serif; }
-
-.h3 {
-  font-family: Arial, Helvetica, sans-serif; }
-
-h4 {
-  text-align: center;
-  color: blueviolet;
-  margin-top: 5px; }
-
+/*Header*/
 .navhover:hover {
   transform: scale(1.1);
   transition: 1s; }
 
+h1 {
+  font-family: "Bilbo Swash Caps", cursive; }
+
 .body, .btn {
   background-color: #fcb1bd; }
 
+/*Index*/
+.carousel {
+  border-bottom: whitesmoke  5px solid;
+  border-left: whitesmoke 5px solid;
+  border-right: whitesmoke  5px solid; }
+
+h4 {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 15px; }
+
+/*Productos */
 .btn {
-  border: blueviolet; }
+  border: pink; }
+
+.btn:hover {
+  background-color: blueviolet; }
 
 .hoverfotos:hover {
   transform: scale(1.05);
   transition: 1s; }
 
+h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+/*Recetas*/
+.img1 {
+  width: 100%;
+  object-fit: cover;
+  border: violet 10px border solid; }
+
+h6 {
+  font-weight: bold;
+  text-align: center; }
+
+.container-recetas {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas: "foto1 foto2 foto3" "receta1 receta2 receta3"; }
+
+.foto1:hover {
+  box-shadow: gray 5px 5px 5px 2px; }
+
+.foto2:hover {
+  box-shadow: grey 5px 5px 5px 2px; }
+
+.foto3:hover {
+  box-shadow: gray 5px 5px 5px 2px; }
+
+.receta1 {
+  grid-area: receta1;
+  background: linear-gradient(to bottom, pink, #fcb1bd); }
+
+.receta2 {
+  grid-area: receta2;
+  background: linear-gradient(to bottom, pink, #fcb1bd); }
+
+.receta3 {
+  grid-area: receta3;
+  background: linear-gradient(to bottom, pink, #fcb1bd); }
+
+li {
+  font-size: 14px; }
+
+/*Footer*/
 footer {
   width: 100%;
   height: 100px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: pink; }
 
 .redes {
@@ -59,3 +112,17 @@ footer {
   color: blueviolet; }
   .bi-instagram:hover {
     color: #bd7afc; }
+
+/*Media*/
+@media screen and (max-width: 768px) {
+  .container-recetas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: "foto1 receta1" "foto2 receta2" "foto3 receta3"; } }
+
+@media screen and (max-width: 500px) {
+  .container-recetas {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "foto1" "receta1" "foto2" "receta2" "foto3" "receta3";
+    margin: auto; } }
