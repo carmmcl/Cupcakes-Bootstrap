@@ -9,91 +9,87 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="shortcut icon" href="./fotos/favicon_c.png">
     <title>Best Cupcakes - Contacto</title>
 </head>
 <body class="body">   
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand navhover" href="#"><h1>Best Cupcakes</h1></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item navhover">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                  </li>
-                  <li class="nav-item navhover">
-                    <a class="nav-link" href="./productos.html">Productos</a>
-                  </li>
-                  <li class="nav-item navhover">
-                    <a class="nav-link" href="./recetas.html">Recetas</a>
-                  </li>
-                  <li class="nav-item navhover">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                  </li>
-                </ul>
-            </div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand navhover" href="#"> <img class="" src="./fotos/logo2.png"alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"    aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item navhover">
+                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item navhover">
+                      <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item navhover">
+                      <a class="nav-link" href="./recetas.html">Recetas</a>
+                    </li>
+                    <li class="nav-item navhover">
+                      <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+              </div>
+        </div>
+      </nav>
+    </header>
+  <main class="container">
+        <div class="row">
+      <div class="col-xs-12 col-md-12 col-lg-6 color">
+        <h2 class="animate__animated animate__heartBeat">Contacto</h2>
+      <div class="row">
+        <div class="col-xs-12 col-lg-6"></div>        
+            <p class="parrafo mt-2">Escríbenos! Estamos a tu disposición por cualquier consulta que pudieras tener!
+           Envíanos tus preguntas, sugerencias e inquietudes. Las misma serán respondidas a la brevedad. Queremos saber de vos!</p>
+            <form class="row g-3">
+              <div class="col-md-12">
+                <label for="inputEmail4" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>            
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Email</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-6">
+                <label for="inputState" class="form-label">Provincia</label>
+                <select id="inputState" class="form-select">
+                </select>
+              </div>
+              <div class="col-12">
+                <label for="inputCity" class="form-label">Comentarios</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>            
+              </div>
+              <div class="col-12">
+              <button type="submit" class="btn btn-secondary">Enviar</button>
+              </div>
+            </form>     
       </div>
-    </nav>
-  
-<main class="container">
-        
-            <div class="row">
-                <div class="col-xs-12 col-lg-6"></div>
-                <h2 class="mt-5">Contacto</h2>
-                <p class="parrafo mt-2">Escríbenos! Estamos a tu disposición por cualquier consulta que pudieras tener!
-                   Envíanos tus preguntas, sugerencias e inquietudes. Las misma serán respondidas a la brevedad. Queremos saber de vos!</p>
-                <form class="row g-3">
-                    <div class="col-md-6">
-                      <label for="inputEmail4" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="inputEmail4">
-                    </div>
-                    <div class="col-md-6">
-                      <label for="inputPassword4" class="form-label">Contraseña</label>
-                      <input type="password" class="form-control" id="inputPassword4">
-                    </div>
-                    <div class="col-12">
-                      <label for="inputAddress" class="form-label">Dirección</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="Calle">
-                    </div>
-                    <div class="col-12">
-                      <label for="inputAddress2" class="form-label">Dirección 2</label>
-                      <input type="text" class="form-control" id="inputAddress2" placeholder="Calle">
-                    </div>
-                    <div class="col-md-6">
-                      <label for="inputCity" class="form-label">Ciudad</label>
-                      <input type="text" class="form-control" id="inputCity">
-                    </div>
-                    <div class="col-md-4">
-                      <label for="inputState" class="form-label">Provincia</label>
-                      <select id="inputState" class="form-select">
-                        <option selected>Elegir...</option>
-                        <option>...</option>
-                      </select>
-                    </div>
-                    <div class="col-md-2">
-                      <label for="inputZip" class="form-label">Código postal</label>
-                      <input type="text" class="form-control" id="inputZip">
-                    </div>
-                    
-                    </div>
-                    <div class="col-12">
-                      <button type="submit" class="btn btn-secondary">Enviar</button>
-                    </div>
-                  </form>
-   
+      <div class="col-xs-12 col-md-12 col-lg-6 color p-3 pt-5">      
+        <img class="img1" src="./fotos/foto_cupcake_chocolate.jpg" alt="">
+      </div>
+  </div>
 </main>
     <br>
     <footer>
         <div class="redes">
-          <a href="#" target="_blank"><i class="bi bi-facebook fs-4"></i></a>
-          <a href="#" target="_blank"><i class="bi bi-whatsapp fs-4"></i></a>
-          <a href="#" target="_blank"><i class="bi bi-instagram fs-4"></i></a>
+          <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook fs-4"></i></a>
+          <a href="https://www.whatsapp.com" target="_blank"><i class="bi bi-whatsapp fs-4"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram fs-4"></i></a>
         </div>
-    </footer>
-    
+    </footer>    
 </body>
 </html>

@@ -3,7 +3,7 @@
 
 footer{
     width: 100%;
-    height: 100px;
+    height: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ footer{
     text-align: center;
     margin-left: 5px;
     margin-right: 5px;
-    color: blueviolet;
+    color:whitesmoke;
         &:hover{
             color:$color-hover;
         }

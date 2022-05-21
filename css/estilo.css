@@ -1,38 +1,67 @@
 /*Header*/
 .navhover:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: 1s; }
-
-h1 {
-  font-family: "Bilbo Swash Caps", cursive; }
 
 .body, .btn {
   background-color: #fcb1bd; }
 
 /*Index*/
 .carousel {
-  border-bottom: whitesmoke  5px solid;
-  border-left: whitesmoke 5px solid;
-  border-right: whitesmoke  5px solid; }
+  border-bottom: whitesmoke  0.2rem solid;
+  border-left: whitesmoke 0.2rem solid;
+  border-right: whitesmoke  0.2rem solid; }
+
+h1, h2 {
+  font-family: 'Work Sans', sans-serif;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  color: pink;
+  margin-top: 15px; }
 
 h4 {
+  font-family: 'Work Sans', sans-serif;
   text-align: center;
-  color: whitesmoke;
+  color: gray;
   margin-top: 15px; }
+
+.cardindex {
+  background: linear-gradient(to bottom, pink, #fcb1bd);
+  border: #fcb1bd; }
+
+.cardfondo {
+  background: #fcb1bd;
+  border: #fcb1bd; }
+
+.card-text-index {
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  color: gray; }
+
+.roundimg {
+  border-radius: 50%; }
+
+.roundimg:hover {
+  box-shadow: gray 5px 5px 5px;
+  transform: scale(1.05);
+  transition: 0.5s; }
 
 /*Productos */
 .btn {
   border: pink; }
 
 .btn:hover {
-  background-color: blueviolet; }
+  background-color: #bd7afc; }
 
 .hoverfotos:hover {
-  transform: scale(1.05);
-  transition: 1s; }
+  transform: scale(1.03);
+  transition: 0.5s; }
 
 h3 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.color {
+  background-color: pink; }
 
 /*Recetas*/
 .img1 {
@@ -41,8 +70,11 @@ h3 {
   border: violet 10px border solid; }
 
 h6 {
+  font-family: 'Work Sans', sans-serif;
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+  color: pink;
+  text-shadow: 2px 2px 2px #000; }
 
 .container-recetas {
   max-width: 1200px;
@@ -74,13 +106,25 @@ h6 {
   grid-area: receta3;
   background: linear-gradient(to bottom, pink, #fcb1bd); }
 
-li {
-  font-size: 14px; }
+.li-recetas {
+  font-size: 1rem;
+  font-family: 'Work Sans', sans-serif;
+  color: gray; }
+
+/*Contacto*/
+p {
+  color: gray; }
+
+.btn {
+  background-color: lightpink; }
+
+.form-label {
+  color: gray; }
 
 /*Footer*/
 footer {
   width: 100%;
-  height: 100px;
+  height: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +137,7 @@ footer {
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
-  color: blueviolet; }
+  color: whitesmoke; }
   .bi-facebook:hover {
     color: #bd7afc; }
 
@@ -101,7 +145,7 @@ footer {
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
-  color: blueviolet; }
+  color: whitesmoke; }
   .bi-whatsapp:hover {
     color: #bd7afc; }
 
@@ -109,7 +153,7 @@ footer {
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
-  color: blueviolet; }
+  color: whitesmoke; }
   .bi-instagram:hover {
     color: #bd7afc; }
 
