@@ -1,4 +1,9 @@
 /*Header*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 .navhover:hover {
   transform: scale(1.05);
   transition: 1s; }
